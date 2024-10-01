@@ -245,16 +245,16 @@ public class Simulasi extends javax.swing.JFrame {
 
     private void btnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahActionPerformed
         if (txtISBN.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, ID belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, ISBN belum diisi !");
 
         } else if (txtJudulBuku.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, Nama belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, Judul Buku belum diisi !");
 
         } else if (txtTahunTerbit.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, No telepon belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, Tahun Terbit belum diisi !");
 
         } else if (txtPenerbit.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, Alamat belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, Penerbit belum diisi !");
 
         } else {
             try {
@@ -313,16 +313,16 @@ public class Simulasi extends javax.swing.JFrame {
         penerbit = txtPenerbit.getText();
 
         if (txtISBN.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, ID belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, ISBN belum diisi !");
 
         } else if (txtJudulBuku.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, Nama belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, Judul Buku belum diisi !");
 
         } else if (txtTahunTerbit.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, No telepon belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, Tahun Terbit belum diisi !");
 
         } else if (txtPenerbit.getText().trim().equals("")) {
-            JOptionPane.showMessageDialog(null, "Maaf, Alamat belum diisi !");
+            JOptionPane.showMessageDialog(null, "Maaf, Penerbit belum diisi !");
 
         } else {
             try {
