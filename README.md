@@ -1,1 +1,2 @@
-# Simulasi
+# Simulasi UTS Mata Kuliah Pemograman Berorientasi Objek
+Repository ini adalah repository untuk memenuhi tugas mata kuliah Pemograman Berorientasi Objek(PBO), tujuan repository ini adalah untuk menerapkan CRUD (Create, Read, Update, Delete) pada java Swing. Disini saya menggunakan bahasa pemograman java dan menggunakan IDE NetBeans untuk menjalankan progeam dan saya menggunakan PostgreSQL untuk databasenya.
