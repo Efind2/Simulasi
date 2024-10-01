@@ -7,7 +7,7 @@ Repository ini adalah repository untuk memenuhi tugas mata kuliah Pemograman Ber
 - [Program Insert](#program-insert)
 - [Program Update](#program-update)
 - [Program Delete](#program-delete)
-- 
+- [Struktur Database](#struktur-database)
 ## Desain GUI
 Untuk membuat desain Gui Swing saya melakukan drag and drop dari fitur yang telah ada di Net Beans, saya menggunakan Text Field sebagai media inputan, Button untuk menjalankan program, dan Table untuk menampilkan data.
 ![image](https://github.com/user-attachments/assets/5e39a3f0-0525-4d66-ae50-90c2e7652e28)
@@ -47,7 +47,27 @@ Kode ini digunakan untuk memasukkan data ke tabel, untuk menjalankannya harus me
 ![image](https://github.com/user-attachments/assets/2ca94db6-2e6a-4d57-8928-c3e4ad74b3c2)
 
 ## Program Update
+kode ini digunakan untuk mengupdate data didalam database, setiap kolom bisa diupdate kecuali kolom yang menjadi primary key
+![image](https://github.com/user-attachments/assets/616ce1e0-5553-4084-85c5-38c82a7c74d4)
+
 ## Program Delete
+kode ini digunakan untuk menghapus satu data yang ada di database.
+![image](https://github.com/user-attachments/assets/45ce4794-269f-485c-9ff7-242ec01b998a)
+
+## Struktur Database
+Struktur tabel di PostgreSQL adalah sebagai berikut:
+- **ISBN** (Primary Key)
+- **Judul Buku**
+- **Tahun Terbit**
+- **Penerbit**
+```sql
+CREATE TABLE buku (
+    isbn INTEGER PRIMARY KEY,
+    judul_buku VARCHAR(50),
+    tahun_terbit VARCHAR(10),
+    penerbit VARCHAR(50)
+);
+
 
 
 
