@@ -45,16 +45,13 @@ kode dibawah ini untuk menampilkan data di Table
     }
 ## Program Insert
 Kode ini digunakan untuk memasukkan data ke tabel, untuk menjalankannya harus memasukkan data  di setiap kolom input, jika tidak maka akan muncul pop up untuk menggisi kolom input yang masih kosong.
-![image](https://github.com/user-attachments/assets/2ca94db6-2e6a-4d57-8928-c3e4ad74b3c2)
-
+![image](https://github.com/user-attachments/assets/0d35d71d-26ff-468b-964d-71dca2717e17)
 ## Program Update
 kode ini digunakan untuk mengupdate data didalam database, setiap kolom bisa diupdate kecuali kolom yang menjadi primary key
-![image](https://github.com/user-attachments/assets/616ce1e0-5553-4084-85c5-38c82a7c74d4)
-
+![image](https://github.com/user-attachments/assets/54e1d1c9-fb11-4a91-9a63-dac3d8f4c11f)
 ## Program Delete
 kode ini digunakan untuk menghapus satu data yang ada di database.
 ![image](https://github.com/user-attachments/assets/45ce4794-269f-485c-9ff7-242ec01b998a)
-
 ## Struktur Database
 Struktur tabel di PostgreSQL adalah sebagai berikut:
 - **ISBN** (Primary Key)
