@@ -63,10 +63,12 @@ Struktur tabel di PostgreSQL adalah sebagai berikut:
 ```sql
 CREATE TABLE buku (
     isbn INTEGER PRIMARY KEY,
-    judul_buku VARCHAR(50),
-    tahun_terbit VARCHAR(10),
-    penerbit VARCHAR(50)
+    judul_buku VARCHAR(50) NOT NULL,
+    tahun_terbit VARCHAR(10) NOT NULL,
+    penerbit VARCHAR(50) NOT NULL
 );
+
+Semoga Bermanfaat https://emojipedia.org/grinning-face-with-smiling-eyes
 
 
 
