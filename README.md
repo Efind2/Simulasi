@@ -1,4 +1,5 @@
 # Simulasi UTS Mata Kuliah Pemograman Berorientasi Objek
+Hallo semuaa 👋
 Repository ini adalah repository untuk memenuhi tugas mata kuliah Pemograman Berorientasi Objek(PBO), tujuan repository ini adalah untuk menerapkan **CRUD (Create, Read, Update, Delete)** pada **Java Swing**. Disini saya menggunakan bahasa pemograman java dan menggunakan **IDE NetBeans** sebagai pengembangan program dan saya menggunakan **PostgreSQL** untuk databasenya. Untuk kasusnya saya mengunakan entitas Buku dengan atribut: ISBN, Judul Buku, Tahun Terbit, dan Penerbit.
 
 ## Daftar Isi
@@ -67,8 +68,8 @@ CREATE TABLE buku (
     tahun_terbit VARCHAR(10) NOT NULL,
     penerbit VARCHAR(50) NOT NULL
 );
-
-Semoga Bermanfaat https://emojipedia.org/grinning-face-with-smiling-eyes
+```
+Semoga Bermanfaat 😄
 
 
 
