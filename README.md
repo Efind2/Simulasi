@@ -5,6 +5,12 @@ Repository ini adalah repository untuk memenuhi tugas mata kuliah Pemograman Ber
 - [Design GUI](design-gui)
 
 ## Design GUI
+Untuk membuat desain Gui Swing saya melakukan drag and drop dari fitur yang telah ada di Net Beans, saya menggunakan Text Field sebagai media inputan, Button untuk menjalankan program, dan Table untuk menampilkan data.
+![image](https://github.com/user-attachments/assets/5e39a3f0-0525-4d66-ae50-90c2e7652e28)
+
+## Program Insert
+
+
 
 
 
